@@ -1,0 +1,100 @@
+<!-- IONOCRAFT — CHEAPEST, MIT PROVEN -->
+<div class="build-phase reveal">
+  <div class="phase-hdr">
+    <div class="phase-num" style="background:linear-gradient(135deg,var(--purple),var(--cyan));">1</div>
+    <div><div class="phase-title">Ionocraft — MIT Design — $200 Total</div><div class="phase-sub">Cheapest · Most proven · Start here · No moving parts</div></div>
+  </div>
+  <table class="parts-table">
+    <thead><tr><th>Component</th><th>Spec</th><th>Qty</th><th>Price</th><th>Source</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td><span class="pn">Tungsten Wire — Emitter</span><br/><span class="ps">0.1mm diameter, 30cm lengths</span></td><td>50cm total</td><td>×1</td><td class="pp">$8</td><td style="color:rgba(255,255,255,.28);font-size:.74rem;">Amazon</td><td style="font-size:.74rem;color:rgba(255,255,255,.38);">Ion emitter — thin wire creates corona</td></tr>
+      <tr><td><span class="pn">Aluminum Foil Collector</span><br/><span class="ps">Heavy duty, 30cm × 30cm sections</span></td><td>1m roll</td><td>×1</td><td class="pp">$6</td><td style="color:rgba(255,255,255,.28);font-size:.74rem;">Amazon</td><td style="font-size:.74rem;color:rgba(255,255,255,.38);">Collector electrode — 5cm below wire</td></tr>
+      <tr><td><span class="pn">Balsa Wood Frame</span><br/><span class="ps">3mm × 3mm strips, lightweight</span></td><td>2m</td><td>×1</td><td class="pp">$12</td><td style="color:rgba(255,255,255,.28);font-size:.74rem;">Hobby shop</td><td style="font-size:.74rem;color:rgba(255,255,255,.38);">Structural frame — must be very light</td></tr>
+      <tr><td><span class="pn">HV Power Supply 40kV DC</span><br/><span class="ps">40kV, 1mA, regulated</span></td><td>×1</td><td>×1</td><td class="pp">$85</td><td style="color:rgba(255,255,255,.28);font-size:.74rem;">Amazon / eBay</td><td style="font-size:.74rem;color:rgba(255,255,255,.38);">Drives ion discharge between electrodes</td></tr>
+      <tr><td><span class="pn">HV Wire — Silicone Insulated</span><br/><span class="ps">40kV rated, flexible</span></td><td>2m</td><td>×1</td><td class="pp">$18</td><td style="color:rgba(255,255,255,.28);font-size:.74rem;">Amazon</td><td style="font-size:.74rem;color:rgba(255,255,255,.38);">Connect HV supply to electrodes safely</td></tr>
+      <tr><td><span class="pn">Safety Interlock Switch</span><br/><span class="ps">Dead man's switch</span></td><td>×1</td><td>×1</td><td class="pp">$15</td><td style="color:rgba(255,255,255,.28);font-size:.74rem;">Amazon</td><td style="font-size:.74rem;color:rgba(255,255,255,.38);">HV cuts instantly on release</td></tr>
+      <tr><td><span class="pn">HV Safety Gloves</span><br/><span class="ps">Class 00 — 500V rated minimum</span></td><td>×1 pair</td><td>×1</td><td class="pp">$35</td><td style="color:rgba(255,255,255,.28);font-size:.74rem;">Amazon</td><td style="font-size:.74rem;color:rgba(255,255,255,.38);">MANDATORY — never skip this</td></tr>
+      <tr><td><span class="pn">Digital Multimeter HV probe</span><br/><span class="ps">40kV rated probe</span></td><td>×1</td><td>×1</td><td class="pp">$22</td><td style="color:rgba(255,255,255,.28);font-size:.74rem;">Amazon</td><td style="font-size:.74rem;color:rgba(255,255,255,.38);">Measure actual voltage applied</td></tr>
+      <tr class="total-row"><td colspan="3"><strong>IONOCRAFT TOTAL</strong></td><td class="pp" style="font-size:1rem;">$201</td><td colspan="2"></td></tr>
+    </tbody>
+  </table>
+  <div class="wire-block">
+    <span class="wc">// IONOCRAFT ASSEMBLY — MIT DESIGN</span><br/>
+    <span class="wc">// Replicate the Nature 2018 paper result</span><br/><br/>
+    <span class="wc">// Step 1: Build the frame</span><br/>
+    <span class="wk">Frame size:    </span><span class="wv">30cm × 30cm balsa grid</span><br/>
+    <span class="wk">Wire height:   </span><span class="wv">5cm above collector foil</span><br/>
+    <span class="wk">Wire spacing:  </span><span class="wv">5cm between parallel emitter wires</span><br/>
+    <span class="wk">Wire tension:  </span><span class="wv">Taut — sag reduces efficiency</span><br/><br/>
+    <span class="wc">// Step 2: Attach collector</span><br/>
+    <span class="wk">Foil layer:    </span><span class="wv">Cover entire bottom of frame</span><br/>
+    <span class="wk">Foil edge:     </span><span class="wv">Fold up 1cm on all sides</span><br/>
+    <span class="wk">Foil contact:  </span><span class="wv">Single HV wire connection at center</span><br/><br/>
+    <span class="wc">// Step 3: Connect HV supply</span><br/>
+    <span class="wk">Positive (+)   </span><span class="wv">→ emitter tungsten wires</span><br/>
+    <span class="wk">Negative (-)   </span><span class="wv">→ collector aluminum foil</span><br/>
+    <span class="wk">Ground:        </span><span class="wv">HV supply ground to earth</span><br/><br/>
+    <span class="wc">// Step 4: Test</span><br/>
+    <span class="wk">Start voltage: </span><span class="wv">10kV — observe corona glow on wire</span><br/>
+    <span class="wk">Increase to:   </span><span class="wv">40kV — platform begins to lift</span><br/>
+    <span class="wk">Weight budget: </span><span class="wv">Total platform must weigh &lt;50g for lift</span><br/>
+    <span class="ww">// NEVER touch electrodes under power</span><br/>
+    <span class="ww">// Discharge caps before any adjustment</span>
+  </div>
+</div>
+
+<!-- ACOUSTIC LEVITATION -->
+<div class="build-phase reveal">
+  <div class="phase-hdr">
+    <div class="phase-num" style="background:linear-gradient(135deg,var(--cyan),var(--blue));">2</div>
+    <div><div class="phase-title">Acoustic Levitation Array — Bristol Design</div><div class="phase-sub">More powerful · Scales up · Produces the "melodious hum"</div></div>
+  </div>
+  <table class="parts-table">
+    <thead><tr><th>Component</th><th>Spec</th><th>Qty</th><th>Price</th><th>Source</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td><span class="pn">Piezo Transducers 40kHz</span><br/><span class="ps">10W each, 16mm diameter</span></td><td>×256</td><td>×256</td><td class="pp">$256</td><td style="color:rgba(255,255,255,.28);font-size:.74rem;">AliExpress</td><td style="font-size:.74rem;color:rgba(255,255,255,.38);">Array emitters — one per node</td></tr>
+      <tr><td><span class="pn">FPGA Board — Xilinx Artix-7</span><br/><span class="ps">256 independent outputs</span></td><td>×1</td><td>×1</td><td class="pp">$130</td><td style="color:rgba(255,255,255,.28);font-size:.74rem;">Digikey</td><td style="font-size:.74rem;color:rgba(255,255,255,.38);">Phase control — steers levitation point</td></tr>
+      <tr><td><span class="pn">16-Channel Amplifier Boards</span><br/><span class="ps">10W per channel, Class D</span></td><td>×16</td><td>×16</td><td class="pp">$480</td><td style="color:rgba(255,255,255,.28);font-size:.74rem;">Sure Electronics</td><td style="font-size:.74rem;color:rgba(255,255,255,.38);">Drive each transducer at full power</td></tr>
+      <tr><td><span class="pn">Raspberry Pi 4 — 4GB</span><br/><span class="ps">Real-time phase calculation</span></td><td>×1</td><td>×1</td><td class="pp">$55</td><td style="color:rgba(255,255,255,.28);font-size:.74rem;">Adafruit</td><td style="font-size:.74rem;color:rgba(255,255,255,.38);">Compute phase delays for steering</td></tr>
+      <tr><td><span class="pn">2.5kW Power Supply 48V</span><br/><span class="ps">Industrial grade DC</span></td><td>×1</td><td>×1</td><td class="pp">$180</td><td style="color:rgba(255,255,255,.28);font-size:.74rem;">Amazon</td><td style="font-size:.74rem;color:rgba(255,255,255,.38);">Power all 256 transducers</td></tr>
+      <tr><td><span class="pn">3D Printed Array Housing</span><br/><span class="ps">16×16 grid, 20mm spacing</span></td><td>×1</td><td>×1</td><td class="pp">$45</td><td style="color:rgba(255,255,255,.28);font-size:.74rem;">Print yourself</td><td style="font-size:.74rm;color:rgba(255,255,255,.38);">Hold transducers in precise geometry</td></tr>
+      <tr><td><span class="pn">Double Ear Protection</span><br/><span class="ps">NRR 33 earmuffs + earplugs</span></td><td>×2 sets</td><td>×2</td><td class="pp">$40</td><td style="color:rgba(255,255,255,.28);font-size:.74rem;">Amazon</td><td style="font-size:.74rem;color:rgba(255,255,255,.38);">MANDATORY — 160dB causes damage</td></tr>
+      <tr class="total-row"><td colspan="3"><strong>ACOUSTIC ARRAY TOTAL</strong></td><td class="pp" style="font-size:1rem;">$1,186</td><td colspan="2"></td></tr>
+    </tbody>
+  </table>
+  <div class="wire-block">
+    <span class="wc">// ACOUSTIC ARRAY — PHASE CONTROL CODE OUTLINE</span><br/><br/>
+    <span class="wc">// Phase delay formula for element at position (xi, yi)</span><br/>
+    <span class="wk">delay_i = </span><span class="wv">sqrt((xi-fx)² + (yi-fy)²) / speed_of_sound</span><br/>
+    <span class="wc">// (fx, fy) = target focus point in space above array</span><br/><br/>
+    <span class="wk">RPi → SPI → FPGA → </span><span class="wv">256 phase-shifted 40kHz signals</span><br/>
+    <span class="wk">FPGA → 16 amp boards → </span><span class="wv">256 transducers</span><br/><br/>
+    <span class="wc">// Focus point steering:</span><br/>
+    <span class="wk">height control:   </span><span class="wv">Adjust z-coordinate of focus point</span><br/>
+    <span class="wk">horizontal move:  </span><span class="wv">Adjust x,y of focus point</span><br/>
+    <span class="wk">lift capacity:    </span><span class="wv">Proportional to array power</span><br/>
+    <span class="wk">2.5kW array:      </span><span class="wv">Can levitate ~500g at 10cm height</span><br/><br/>
+    <span class="ww">// ALWAYS wear double hearing protection</span><br/>
+    <span class="ww">// 160dB ultrasound causes permanent damage in seconds</span>
+  </div>
+</div>
+
+<!-- MASTER PARTS TOTAL -->
+<div class="build-phase reveal">
+  <div class="phase-hdr">
+    <div class="phase-num" style="background:linear-gradient(135deg,var(--gold),var(--orange));">3</div>
+    <div><div class="phase-title">Complete Combined System — All Four Modes</div><div class="phase-sub">Full Parach platform — all propulsion systems integrated</div></div>
+  </div>
+  <table class="parts-table">
+    <thead><tr><th>Module</th><th>System</th><th>Cost</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td style="color:var(--purple);font-weight:700;">IONOCRAFT</td><td>MIT proven · 40kV DC · No moving parts</td><td class="pp">$201</td><td style="color:var(--green);font-size:.78rem;">✓ Proven — start here</td></tr>
+      <tr><td style="color:var(--cyan);font-weight:700;">ACOUSTIC</td><td>Bristol proven · 40kHz · 256 elements</td><td class="pp">$1,186</td><td style="color:var(--green);font-size:.78rem;">✓ Proven — scales up</td></tr>
+      <tr><td style="color:var(--gold);font-weight:700;">ELECTROGRAVITICS</td><td>Biefeld-Brown · 50-300kV · Barium titanate</td><td class="pp">$850</td><td style="color:#ffbd2e;font-size:.78rem;">⚠ Advanced — confirmed effect</td></tr>
+      <tr><td style="color:var(--green);font-weight:700;">AERODYNAMIC</td><td>Wind platform · Woven conductor array</td><td class="pp">$180</td><td style="color:var(--green);font-size:.78rem;">✓ Pure physics</td></tr>
+      <tr><td style="color:rgba(255,255,255,.4);font-weight:700;">CONTROLLER</td><td>Arduino Mega + OLED + mode switch</td><td class="pp">$85</td><td style="color:var(--green);font-size:.78rem;">✓ Standard</td></tr>
+      <tr><td style="color:rgba(255,255,255,.4);">SAFETY</td><td>HV gloves, ear protection, interlock</td><td class="pp">$120</td><td style="color:var(--red);font-size:.78rem;">MANDATORY</td></tr>
+      <tr class="total-row"><td><strong>🪄 FULL PARACH SYSTEM</strong></td><td>All four propulsion modes</td><td class="pp" style="font-size:1.1rem;">$2,622</td><td style="color:var(--gold);font-size:.78rem;">Complete platform</td></tr>
+    </tbody>
+  </table>
+</div>

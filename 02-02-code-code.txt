@@ -1,0 +1,91 @@
+<div class="freq-card" onclick="playFreq(40000,this)" id="fc-40000">
+      <div class="fc-playing">▶ ON</div>
+      <div class="fc-hz">40,000 Hz</div>
+      <div class="fc-name">Primary Levitation Frequency</div>
+      <div class="fc-desc">40kHz ultrasonic — the operating frequency of all acoustic levitation arrays. Above human hearing. Creates standing wave nodes at λ/2 = 4.3mm spacing. Bristol and Tokyo arrays use exactly this.</div>
+      <div class="fc-source">Source: Bristol University 2015 · University of Tokyo 2013</div>
+      <div class="fc-bar"><div class="fc-fill" style="width:100%;"></div></div>
+    </div>
+
+    <div class="freq-card" onclick="playFreq(20000,this)" id="fc-20000">
+      <div class="fc-playing">▶ ON</div>
+      <div class="fc-hz">20,000 Hz</div>
+      <div class="fc-name">Lower Acoustic Boundary</div>
+      <div class="fc-desc">20kHz — the lower limit of ultrasonic range. Some levitation arrays use this for larger node spacing. Creates 8.6mm nodes — good for larger objects. The threshold humans can barely hear — causes unease when present.</div>
+      <div class="fc-source">Source: Acoustic levitation physics · Lower array frequency</div>
+      <div class="fc-bar"><div class="fc-fill" style="width:90%;"></div></div>
+    </div>
+
+    <div class="freq-card" onclick="playFreq(432,this)" id="fc-432">
+      <div class="fc-playing">▶ ON</div>
+      <div class="fc-hz">432 Hz</div>
+      <div class="fc-name">Cosmic Tuning — Vimana Hum</div>
+      <div class="fc-desc">The audible subharmonic of the 40kHz array — 40000/93 ≈ 430 Hz. The "melodious sound" the Ramayana describes is the acoustic array's carrier frequency heard as a subharmonic. Solomon's carpet operating at 40kHz would produce a 432 Hz audible tone as a byproduct.</div>
+      <div class="fc-source">Source: Ramayana "melodious sound" · Vimana acoustic signature</div>
+      <div class="fc-bar"><div class="fc-fill" style="width:75%;"></div></div>
+    </div>
+
+    <div class="freq-card" onclick="playFreq(7.83,this)" id="fc-783">
+      <div class="fc-playing">▶ ON</div>
+      <div class="fc-hz">7.83 Hz</div>
+      <div class="fc-name">Schumann — Earth Navigation</div>
+      <div class="fc-desc">Earth's electromagnetic resonance. Ancient navigators reported flying platforms that could navigate by Earth's natural EM field. Tuning the platform's control system to 7.83 Hz creates a natural compass aligned to Earth's own frequency. Solomon's platform "ran at his command" — this is the navigation frequency.</div>
+      <div class="fc-source">Source: Schumann 1952 · Ancient platform navigation accounts</div>
+      <div class="fc-bar"><div class="fc-fill" style="width:40%;"></div></div>
+    </div>
+
+    <div class="freq-card" onclick="playFreq(528,this)" id="fc-528">
+      <div class="fc-playing">▶ ON</div>
+      <div class="fc-hz">528 Hz</div>
+      <div class="fc-name">Activation Frequency — DNA Repair</div>
+      <div class="fc-desc">Multiple ancient texts describe the flying platform activating with a specific tone sung or played by the operator. 528 Hz — the transformation Solfeggio — is reported across traditions as the frequency that "wakes" dormant technology. The Persian carpet legends describe the rider "willing" the destination — this is a bioacoustic interface at 528 Hz.</div>
+      <div class="fc-source">Source: Arabian Nights activation account · Solfeggio Mi</div>
+      <div class="fc-bar"><div class="fc-fill" style="width:80%;"></div></div>
+    </div>
+
+    <div class="freq-card" onclick="playFreq(111,this)" id="fc-111">
+      <div class="fc-playing">▶ ON</div>
+      <div class="fc-hz">111 Hz</div>
+      <div class="fc-name">Operator State Frequency</div>
+      <div class="fc-desc">The Maltese Hypogeum research showed 111 Hz switches off the prefrontal cortex activating pure intuitive state. The flying carpet stories uniformly say the rider "wills" the destination — not thinks, not programs. Pure intent navigation. The operator must be in 111 Hz brain state for the platform to respond to directional intent.</div>
+      <div class="fc-source">Source: Dr. Ian Cook UCLA 2008 · Ancient operator protocols</div>
+      <div class="fc-bar"><div class="fc-fill" style="width:65%;"></div></div>
+    </div>
+
+    <div class="freq-card" onclick="playFreq(40,this)" id="fc-40">
+      <div class="fc-playing">▶ ON</div>
+      <div class="fc-hz">40 Hz</div>
+      <div class="fc-name">Gamma Coherence — Array Sync</div>
+      <div class="fc-desc">MIT research showed 40Hz gamma entrainment synchronizes neural activity. For multi-operator platforms (Solomon carried his entire court) all operators needed synchronized brain states. A 40 Hz acoustic field emitted by the platform itself would entrain all passengers to coherent gamma state — stable group consciousness for navigation.</div>
+      <div class="fc-source">Source: MIT Iaccarino 2016 · Group platform operation accounts</div>
+      <div class="fc-bar"><div class="fc-fill" style="width:55%;"></div></div>
+    </div>
+
+    <div class="freq-card" onclick="playFreq(216,this)" id="fc-216">
+      <div class="fc-playing">▶ ON</div>
+      <div class="fc-hz">216 Hz</div>
+      <div class="fc-name">Ishtar Gate Link — Destination Lock</div>
+      <div class="fc-desc">The Ishtar Gate frequency — 216 Hz. When the platform was being navigated to or from Babylon, the destination gate frequency would be broadcast to create a resonant lock between platform and destination. The platform was tuned to the gate it was traveling toward — acoustic GPS.</div>
+      <div class="fc-source">Source: Gate frequency research · Babylon navigation accounts</div>
+      <div class="fc-bar"><div class="fc-fill" style="width:70%;"></div></div>
+    </div>
+
+    <div class="freq-card" onclick="playFreq(963,this)" id="fc-963">
+      <div class="fc-playing">▶ ON</div>
+      <div class="fc-hz">963 Hz</div>
+      <div class="fc-name">Crown Seal — Landing Protocol</div>
+      <div class="fc-desc">963 Hz — the highest Solfeggio. All ancient accounts of flying platforms describe a specific tone at landing and takeoff. 963 Hz was the crown seal frequency — used to "close" the platform's field on landing and "open" it on takeoff. The Vimana texts describe a specific sound at each transition. This is that sound.</div>
+      <div class="fc-source">Source: Vimana landing accounts · Solfeggio crown frequency</div>
+      <div class="fc-bar"><div class="fc-fill" style="width:88%;"></div></div>
+    </div>
+
+  </div>
+
+  <div class="custom-row">
+    <div class="cr-field"><label>Custom Frequency (Hz)</label><input type="number" id="custom-hz" placeholder="Enter any Hz" min="1" max="40000"/></div>
+    <div class="cr-field"><label>Waveform</label><select id="custom-wave"><option value="sine">Sine — Pure</option><option value="triangle">Triangle — Warm</option><option value="sawtooth">Sawtooth — Bright</option><option value="square">Square — Harsh</option></select></div>
+    <button class="cr-play" onclick="playCustom()">▶ Play</button>
+    <button class="cr-stop" style="border:none;" onclick="stopAllTones()">■ Stop</button>
+  </div>
+  <canvas id="vizCanvas" width="900" height="80"></canvas>
+</div>
