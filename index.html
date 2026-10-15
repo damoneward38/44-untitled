@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" href="data:,">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>IONOCRAFT — Levitation Platform Builder</title>
@@ -74,6 +75,7 @@ canvas#vizCanvas{width:100%;height:80px;background:#04060d;border:1px solid var(
   <h1>PARACH PLATFORM BUILDER</h1>
   <div class="sub">Build, tune and drive a levitation platform — ionocraft (MIT proven) → acoustic array (Bristol proven)</div>
 </header>
+<div role="note" style="margin:8px 14px;padding:10px 14px;background:#252116;color:#fef3c7;border:1px solid #80651e;border-radius:8px;font-size:12px">AUDIO/BUILD SAFETY: the frequency player only generates sound; it does not levitate objects or provide propulsion. Ionocraft/ultrasonic builds can involve high voltage and intense sound; use qualified supervision and appropriate safety controls.</div>
 <main>
   <div class="tabs">
     <button class="tab active" onclick="showTab('freq','FREQUENCE')" id="tab0">🎛️ Frequency Engine</button>
@@ -310,10 +312,9 @@ function drawViz(){
   }
   requestAnimationFrame(drawViz);
 }
-function showTab(id,num){
-  ['freq','build','combined'].forEach(v=>document.getElementById('view-'+v).style.display=v===id?'block':'none');
-  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
-  document.getElementById('tab'+num).classList.add('active');
+function showTab(id){
+  ['freq','build','combined'].forEach(v=>{const view=document.getElementById('view-'+v);if(view)view.style.display=v===id?'block':'none';});
+  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',['freq','build','combined'][i]===id));
 }
 renderFreqs();drawViz();
 </script>
